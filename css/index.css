@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 3vh;
+    font-family: "Oswald", serif;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    font-size: 19px;
+
+}
+header a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s ,font-size 0.5s;
+}
+header a:hover{
+    color: rgb(124, 1, 98); 
+    font-size: 20px;
+}
+.logo{
+    font-size: 30px;
+    font-family: "Oswald", serif;
+}
+.banner{
+    background-image: url(../img/banner.PNG) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    opacity: 90%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    font-family: "Oswald", serif;
+}
+.call{
+    text-transform: uppercase;
+    margin: 50px;
+    opacity: 1000%;
+    font-size: 30px;
+    color: white;
+}
+.dec{
+    font-style: italic;
+    color: rgb(124, 1, 98);
+    opacity: 100%;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    padding: 15px;
+    gap: 50px;
+    font-family: "Oswald", serif;
+}
+footer ul {
+    list-style: none;
+}
+.footer_first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer_second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: solid white 1px;
+    padding: 30px;
+    margin: 0 100px;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s ,font-size 0.5s;
+}
+footer a:hover{
+    color: rgb(124, 1, 98); 
+    font-size: 20px;
+}
+footer i{
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s ,font-size 0.5s;
+}
+footer i:hover{
+    color: rgb(124, 1, 98); 
+    font-size: 25px;
+    cursor: pointer;
+}
+h3{
+    color: rgb(124, 1, 98);
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 30px;
+}
+.estilos{
+    padding-top: 30px;
+    font-family: "Nunito Sans", serif;
+}
+
+.b{
+    font-size: 30px;
+    padding-left: 30px;
+    text-transform: uppercase;
+    color: rgb(124, 1, 98);
+    font-weight: 500;
+}
+.a{
+    padding-left: 35px;
+    width: 600px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.estilos_tatuagem{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:30px;
+    padding: 30px;
+}
+.tatuagem{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 400px;
+    width: 300px;
+    background-color: rgb(238, 229, 236);
+    border-radius: 10px;
+    padding: 10px;
+}
+.tatuagem img {
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+}
+.tatuagem_desc{
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(124, 1, 98);
+}
+label{
+    color: rgb(124, 1, 98);
+}
+.orçamento{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    height: 250px;
+    gap: 30px;
+    padding: 20px;
+
+}
+.orçamento_item{
+    height: 60px;
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    
+}
+.orçamento_item i {
+    font-size: 30px;
+    color: rgb(124, 1, 98);
+}
+.c{
+    color: rgb(124, 1, 98);
+    font-size: 25px;
+}
+.orçamento_desc{
+    border-left: 2px solid rgb(124, 1, 98);
+    padding-left: 30px;
+}
+.relato{
+    display:flex;
+    gap: 40px;
+    padding: 10px;
+    background-color: rgb(238, 229, 236);
+    border-radius: 15px;
+}
+.relatos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.relato_desc{
+    display: flex;
+}
+.relato_user i{
+    background-color: rgb(238, 229, 236);
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 30px;
+    color: rgb(124, 1, 98);
+}
+.relato_user{
+display: flex;
+justify-content: center;
+}
+.relato_stars ul{
+    padding-top: 15px;
+    list-style: none;
+    display: flex;
+}
+.relato_stars i {
+    color: rgb(124, 1, 98);
+
+}
+.relato_ava button{
+    border: none;
+    color: rgb(124, 1, 98);
+    background-color: rgb(238, 229, 236);
+    padding: 8px;
+    padding-top: 15px;
+    font-size: 20px;
+    border-radius: 30px;
+    transition: padding 0.9s;
+}
+.relato_ava button:hover{
+    border: solid 1px rgb(124, 1, 98);
+    padding: 10px;
+}
+.share{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+.redes{
+    padding: 10px;
+}
+.redes_icon{
+    font-size: 20px;
+}
+.redes_icon i{
+    color: rgb(124, 1, 98);
+    font-size: 30px;
+}
+.icone{
+    display: flex;
+    justify-content: center;
+}
+.redes_ico{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 20px;
+
+}
+.orçamento_contato{
+    font-size: 20px;
+}
+.orçamento_contato button{
+    border: rgb(124, 1, 98) solid 1px;
+    background-color: rgb(238, 229, 236);
+    padding: 6px;
+    font-size: 18px;
+    color: rgb(124, 1, 98);
+    border-radius: 10px;
+}
